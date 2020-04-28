@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+body {
+	background-color:#F8F3F2;
+}
+h1 {
+	font-family: garamond;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 15px; 
+	font-weight: bold; /*Bold text*/
+}
+h2 {
+	font-family: garamond;
+	text-align: center;
+	font-size: 32px;
+	margin-top: -10px;
+	font-style: italic;
+}
+h3{
+	color: #black; /*Sets color for footer header*/
+	font-size: 20px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	background-color: #5caaea; /*blue*/
+	text-align: center; /*Centers the whole Nav bar*/
+	font-family: garamond;
+	font-size: 25px;
+
+}
+
+ul.list3{ /*Creates another style for a seperate list*/
+	margin-left: 630px;
+	margin-right: 400px;
+	background-color: white;
+	display:inline-block;
+	font-family: garamond;
+	font-size: 20px;
+
+}
+
+table, th, td {     /*Creates table, table heading style*/
+  border: 1px solid black; /*Border*/
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: 580px;
+}
+th, td {  /*Spacing and style in the header and table data*/
+  padding: 5px; 
+  text-align: center;    
+}
+
+ul.list2{
+	margin-left: 400px;
+	margin-right: 400px;
+	padding: 0;
+	background-color: #5caaea; /*blue*/
+	text-align: center; /*Centers the whole Nav bar*/
+	font-family: garamond;
+	font-size: 25px;
+
+}
+	
+li{
+	display: inline; /*Sorts the list horizontally*/
+	border-right: 1px solid #F8F3F2; /*Creates border to the right*/
+}
+
+li:first-child {  /*Creates a border on the first item in the list*/
+		border-left: 1px solid #F8F3F2;
+}
+
+li a{
+	display: block; /*Sets it to a block*/
+	float: center;
+	color: white;
+	text-decoration: none; /*Gets rid of the underline*/
+	display: inline; /*Sorts the list horizontally*/
+	padding: 14px 16px; /*The space between the buttons*/
+}
+li a:hover { /*Makes the style for the list when the action is hover*/
+	background-color: #717273; /*Changes the color to grey*/
+}
+
+hr{ /*Makes a rectangle*/
+	width: 900px;
+	height: 3px;
+	background-color: #5caaea;
+}
+
+img{
+	display: block;  /*Displays a block element, which creates a new line*/
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	border-width: 3px;
+	border-color: black;
+	font-family: garamond;
+	font-size: 20px;
+	padding-left: 80px; /*Pads the side of the paragraph*/
+	margin-left: 180px;
+	margin-right: 180px;
+}
+footer{
+	font-family: garamond;
+	background-color: #5caaea;
+	font-size: 15px;
+	text-align: center;
+}
