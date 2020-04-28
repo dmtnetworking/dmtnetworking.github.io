@@ -1,21 +1,26 @@
 <!DOCTYPE html>
+
 body {
-	background-color:#F8F3F2;
+	background-color: #grey;
 }
+
 h1 {
-	font-family: garamond;
+	font-family: Lucida Console;
 	text-align: center;
 	font-size: 40px;
 	margin-top: 15px; 
 	font-weight: bold; /*Bold text*/
+	color: #58D68D;
 }
+
 h2 {
-	font-family: garamond;
+	font-family: verdana;
 	text-align: center;
 	font-size: 32px;
 	margin-top: -10px;
 	font-style: italic;
 }
+
 h3{
 	color: #black; /*Sets color for footer header*/
 	font-size: 20px;
@@ -24,9 +29,9 @@ h3{
 ul{
 	margin: 0;
 	padding: 0;
-	background-color: #5caaea; /*blue*/
+	background-color: #58D68D; /*blue*/
 	text-align: center; /*Centers the whole Nav bar*/
-	font-family: garamond;
+	font-family: verdana;
 	font-size: 25px;
 
 }
@@ -35,8 +40,8 @@ ul.list3{ /*Creates another style for a seperate list*/
 	margin-left: 630px;
 	margin-right: 400px;
 	background-color: white;
-	display:inline-block;
-	font-family: garamond;
+	display: inline-block;
+	font-family: verdana;
 	font-size: 20px;
 
 }
@@ -58,7 +63,7 @@ ul.list2{
 	padding: 0;
 	background-color: #5caaea; /*blue*/
 	text-align: center; /*Centers the whole Nav bar*/
-	font-family: garamond;
+	font-family: verdana;
 	font-size: 25px;
 
 }
@@ -87,7 +92,7 @@ li a:hover { /*Makes the style for the list when the action is hover*/
 hr{ /*Makes a rectangle*/
 	width: 900px;
 	height: 3px;
-	background-color: #5caaea;
+	background-color: #58D68D;
 }
 
 img{
@@ -98,14 +103,14 @@ img{
 p{
 	border-width: 3px;
 	border-color: black;
-	font-family: garamond;
-	font-size: 20px;
-	padding-left: 80px; /*Pads the side of the paragraph*/
+	font-family: verdana;
+	font-size: 100px;
+	padding-left: 790px; /*Pads the side of the paragraph*/
 	margin-left: 180px;
 	margin-right: 180px;
 }
 footer{
-	font-family: garamond;
+	font-family: verdana;
 	background-color: #5caaea;
 	font-size: 15px;
 	text-align: center;
