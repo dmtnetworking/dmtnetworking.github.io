@@ -1,36 +1,61 @@
-<!DOCTYPE html>
-
 body {
-	background-color: #grey;
+	background-color:  #e5e7e9 ;
 }
-
 h1 {
+	font-family: Lucida Console;
+	text-align: left;
+	padding-left: 150px;
+	font-size: 40px;
+	font-weight: bold; /*Bold text*/
+	color: #239b56; /*Green*/
+}
+h2 {
+	font-family: Lucida Console;
+	text-align: left;
+	padding-left: 195px;
+	font-size: 15px;
+	font-weight: bold; /*Bold text*/
+	color: #black; /*black*/
+	margin-top: -20px;
+}
+h3 {
+	font-family: Lucida Console;
+	padding-left: 30px;
+	font-size: 40px;
+	font-weight: bold; /*Bold text*/
+	color: #239b56; /*Green*/
+}
+h4 {
 	font-family: Lucida Console;
 	text-align: center;
 	font-size: 40px;
-	margin-top: 15px; 
 	font-weight: bold; /*Bold text*/
-	color: #58D68D;
+	color: #239b56; /*Green*/
 }
-
-h2 {
-	font-family: verdana;
-	text-align: center;
-	font-size: 32px;
-	margin-top: -10px;
-	font-style: italic;
+div.paragraph {
+	width: 1500px;
+	height: 100%;
+	border: 1px solid black;
+	margin-top: 40px;
+	margin-left: 350px;
+	padding-left: 50px;
+	
 }
-
-h3{
-	color: #black; /*Sets color for footer header*/
-	font-size: 20px;
+column {
+	height: 80%;
+	width: 400px;
+	position: fixed;
+	z-index: 1;
+	top: 150px;
+	right: 150px;
+	background-color: #111;
+	overflow-x: hidden;
+	background: rgba(100, 100, 100, 0.3);
 }
-
 ul{
 	margin: 0;
 	padding: 0;
-	background-color: #58D68D; /*blue*/
-	text-align: center; /*Centers the whole Nav bar*/
+	text-align: left; /*Centers the whole Nav bar*/
 	font-family: verdana;
 	font-size: 25px;
 
@@ -46,66 +71,40 @@ ul.list3{ /*Creates another style for a seperate list*/
 
 }
 
-table, th, td {     /*Creates table, table heading style*/
-  border: 1px solid black; /*Border*/
-  border-collapse: collapse;
-  text-align: center;
-  margin-left: 580px;
-}
-th, td {  /*Spacing and style in the header and table data*/
-  padding: 5px; 
-  text-align: center;    
-}
-
-ul.list2{
-	margin-left: 400px;
-	margin-right: 400px;
-	padding: 0;
-	background-color: #5caaea; /*blue*/
-	text-align: center; /*Centers the whole Nav bar*/
-	font-family: verdana;
-	font-size: 25px;
-
-}
-	
 li{
 	display: inline; /*Sorts the list horizontally*/
-	border-right: 1px solid #F8F3F2; /*Creates border to the right*/
 }
-
-li:first-child {  /*Creates a border on the first item in the list*/
-		border-left: 1px solid #F8F3F2;
-}
-
 li a{
 	display: block; /*Sets it to a block*/
-	float: center;
-	color: white;
+	float: right;
+	color: black;
 	text-decoration: none; /*Gets rid of the underline*/
 	display: inline; /*Sorts the list horizontally*/
 	padding: 14px 16px; /*The space between the buttons*/
 }
+
 li a:hover { /*Makes the style for the list when the action is hover*/
-	background-color: #717273; /*Changes the color to grey*/
+	background-color: #39b56 ; /*Changes the color to grey*/
 }
 
-hr{ /*Makes a rectangle*/
+div.photo {
+	margin-top: 25px;
+	margin-left: 750px;
+	height: 300px;
 	width: 900px;
-	height: 3px;
-	background-color: #58D68D;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px;
 }
 
-img{
-	display: block;  /*Displays a block element, which creates a new line*/
-	margin-left: auto;
-	margin-right: auto;
+div.container {
+  text-align: center;
+  padding: 10px 20px;
 }
 p{
 	border-width: 3px;
 	border-color: black;
 	font-family: verdana;
-	font-size: 100px;
-	padding-left: 790px; /*Pads the side of the paragraph*/
+	font-size: 20px;
+	padding-left: 180px; /*Pads the side of the paragraph*/
 	margin-left: 180px;
 	margin-right: 180px;
 }
